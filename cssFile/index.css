@@ -1,0 +1,108 @@
+/* index.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar .logo {
+    width: 50px;
+    height: auto;
+}
+
+/* Navbar */
+.navbar {
+    margin-bottom: 20px;
+}
+
+/* Carousel */
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+
+/* Card styles */
+.card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.card-body .btn {
+    margin-top: 10px;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+}
+
+.footer .logo {
+    width: 50px;
+    height: auto;
+}
+
+.footer p {
+    margin: 0;
+    padding-left: 15px;
+}
+
+.footer a {
+    display: inline-block;
+    width: 100%;
+}
+
+.footer a img {
+    width: 50px;
+    height: auto;
+    transition: transform 0.2s;
+}
+
+.footer a img:hover {
+    transform: scale(1.2);
+}
+
+/* Icons in feature cards */
+.card-footer .fa {
+    font-size: 2rem;
+    color: #007bff;
+}
+
+.card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.card-footer:hover {
+    transform: translateY(-10px);
+}
+
+/* Custom styles for feature cards */
+.card-footer .fa {
+    margin-right: 10px;
+}
+
+.card-footer .card-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.text-light {
+    color: #fff !important;
+}
